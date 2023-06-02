@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/*"
 to = "/portfolio/templates/home.html"
-from = "/*about"
+from = "/*"
 to = "/portfolio/templates/about.html"
 status = 200
