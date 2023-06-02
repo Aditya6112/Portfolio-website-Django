@@ -6,17 +6,17 @@ from home.models import Contact
 def home(request):
     # return HttpResponse("This is my homepage(/)")
     context = {'name': 'Aditya', 'course': 'Django'}
-    return render(request, '/portfolio/templates/home.html', context)
+    return render(request, 'home.html', context)
 
 
 def about(request):
     # return HttpResponse("This is my about page(/about)")
-    return render(request, '/portfolio/templates/about.html')
+    return render(request, 'about.html')
 
 
 def projects(request):
     # return HttpResponse("This is my projects page(/projects)")
-    return render(request, '/portfolio/templates/projects.html')
+    return render(request, 'projects.html')
 
 
 def contact(request):
@@ -35,4 +35,4 @@ def contact(request):
         print("The data has been written to the db")
 
     # return HttpResponse("This is my contact page(/contact)")
-    return render(request, '/portfolio/templates/contact.html')
+    return render(request, 'contact.html')
