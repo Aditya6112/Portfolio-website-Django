@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/portfolio/portfolio/templates/home.html"
+to = "/portfolio/templates/home.html"
 status = 200
