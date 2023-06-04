@@ -1,4 +1,0 @@
-[[redirects]]
-from = "/*"
-to = "/portfolio/templates/home.html"
-status 200
